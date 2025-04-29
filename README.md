@@ -59,7 +59,7 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
 
 ## 📌Navigation 
-⚠️ Để có thể chạy được navigation cần vào trong folder maps/mazemap1.yaml đổi đường dẫn image thành đường dẫn map quét được (mazemap1.pgm) tương ứng với máy của bạn
+⚠️ Để có thể chạy được navigation cần vào trong folder maps/mazemap3.yaml đổi đường dẫn image thành đường dẫn map quét được (mazemap3.pgm) tương ứng với máy của bạn
 
 
 ### 🎮 Bước 7:  Chay mô hình trong gazebo
