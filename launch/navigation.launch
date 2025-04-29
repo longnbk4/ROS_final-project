@@ -7,7 +7,7 @@
   <arg name="custom_param_file" default="$(find xerobotvisai2)/param/dummy.yaml"/>
 
   <!-- Chạy map_server để cung cấp bản đồ -->
-  <node name="map_server" pkg="map_server" type="map_server" args="$(find xerobotvisai2)/maps/maze_map.yaml" />
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find xerobotvisai2)/maps/mazemap3.yaml" />
 
   <!-- AMCL cho định vị -->
   <include file="$(find amcl)/examples/amcl_diff.launch" />
