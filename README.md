@@ -60,7 +60,7 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
 
 ## 📌Navigation 
-⚠️ Để có thể chạy được navigation cần vào trong folder maps/mazemap3.yaml đổi đường dẫn image thành đường dẫn trong máy của bạn 
+⚠️ Để có thể chạy được navigation cần vào trong folder maps/mazemap1.yaml đổi đường dẫn image thành đường dẫn map quét được (mazemap1.pgm) tương ứng với máy của bạn
 
 
 ### 🎮 Bước 7:  Chay mô hình trong gazebo
@@ -86,7 +86,12 @@ pip install opencv-python
 pip install torch torchvision
 ```
 ### Thêm thư viện model người
+```bash
+nano ~/.bashrc
+```
+```bash
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/catkin_ws/src/xerobotvisai2/models
+```
 
 #### Chạy module phát hiện người
 1. Vào file gazebo.launch và đổi đường dẫn sang human_map.world
