@@ -1,8 +1,7 @@
 
 # ROS Final Project: Differential Drive Robot with SLAM, Navigation, and YOLOv5 Human Detection
 
-PDF: 
-[ROS_GK-1.pdf](https://github.com/user-attachments/files/19553201/ROS_GK-1.pdf)
+PDF: [baocaocuoikiros.pdf](https://github.com/user-attachments/files/19954219/baocaocuoikiros.pdf)
 
 VIDEO:
 https://byvn.net/IrCE
