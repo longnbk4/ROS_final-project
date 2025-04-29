@@ -85,6 +85,9 @@ pip install ultralytics
 pip install opencv-python
 pip install torch torchvision
 ```
+### Thêm thư viện model người
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/catkin_ws/src/xerobotvisai2/models
+
 #### Chạy module phát hiện người
 1. Vào file gazebo.launch và đổi đường dẫn sang human_map.world
 
