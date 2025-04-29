@@ -25,7 +25,8 @@ catkin_init_workspace
 ### 📥 Bước 2: Clone Repository
 
 ```bash
-git clone https://github.com/longnbk4/xerobotvisai2.git
+git clone https://github.com/longnbk4/ROS_final-project.git
+mv ROS_final-project xerobotvisai2
 cd ~/catkin_ws
 catkin_make
 ```
