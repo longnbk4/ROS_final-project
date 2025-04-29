@@ -25,8 +25,7 @@ catkin_init_workspace
 ### 📥 Bước 2: Clone Repository
 
 ```bash
-git clone https://github.com/thaithinhhl/ROS_CK.git
-mv ROS_CK xerobotvisai2 
+git clone https://github.com/longnbk4/xerobotvisai2.git
 cd ~/catkin_ws
 catkin_make
 ```
@@ -56,7 +55,7 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 
 
-Điều khiển bẳng các phím j, i, l k .
+Điều khiển bẳng các phím j, i, l k, .
 
 
 ## 📌Navigation 
@@ -86,16 +85,18 @@ pip install opencv-python
 pip install torch torchvision
 ```
 #### Chạy module phát hiện người
-1. Đảm bảo đã khởi động Gazebo và camera đang hoạt động:
+1. Vào file gazebo.launch và đổi đường dẫn sang human_map.world
+
+2. Đảm bảo đã khởi động Gazebo và camera đang hoạt động:
    ```
    roslaunch xerobotvisai2 gazebo.launch
    ```
 
-2. Chạy module phát hiện người:
+3. Chạy module phát hiện người:
    ```
    rosrun xerobotvisai2 detect_human.py
    ```
 
-3. Module sẽ lắng nghe topic camera `/rrbot/camera1/image_raw` và hiển thị khung hình với các bounding box xung quanh người được phát hiện. 
+4. Module sẽ lắng nghe topic camera `/rrbot/camera1/image_raw` và hiển thị khung hình với các bounding box xung quanh người được phát hiện. 
 
 ⚠️ Nên điều khiển xe ra góc có thể thấy được toàn bộ khung hình người để có thể detect dễ hơn
